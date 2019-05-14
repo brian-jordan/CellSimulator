@@ -1,0 +1,9 @@
+1. Our implementation his the implementation of the abstract Simulation and Grid classes from the subclasses, and also hides the implementation of the program from the XML parser.  The parser strictly returns the data values necessary to start a particular program and does not know what the program does.
+
+2. We are building abstract classes for Simulation and Cell, the reason being both in implementation and organization.  These main classes enable us to create subclasses of simulations and cells under a template superclass.  Certain methpds will be non abstract in the abstract class as they are utilized across all subclasses, but other more specific methods will be implemented in each specific class.
+
+3. Polymorphism is a big part of our design - certain abstract classes such as the Cell and Simulation classes will be open to be extended and also for the main method to interact with the values returned.  The XMLParser and Grid classes will both return values to the main method, and these at the moment are open so that this data can easily be interacted with to update the Cells in the Grid.
+
+4. One exception that I handle in the parser is if the file name is invalid - this throws an exception and prints an error message for the user.  At the moment it is a generic error, but I am planning to make it display a specific "file is invalid" message.
+
+5. I think great part of my project is how flexible it is.  It's extremely easy to add new simulations and make new sets of rules, due to the abstract Simulation and Cell classes.  These hold general methods and variables used in general simulations and cell types, and leave the specific detail implementation to the specific subclasses.

@@ -1,0 +1,37 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>GameOfLife</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <stateProb>
+        <prob>0.70</prob>
+        <prob>0.30</prob>
+    </stateProb>
+    <states dead = "0" alive = "1">
+        <option name = "dead">0</option>
+        <option name = "alive">1</option>
+    </states>
+    <initialState dead = "0" alive = "1">
+        <state i = "0" j = "0" >0</state>
+        <state i = "0" j = "1" >1</state>
+        <state i = "0" j = "2" >1</state>
+        <state i = "0" j = "3" >1</state>
+        <state i = "0" j = "4" >1</state>
+        <state i = "0" j = "5" >0</state>
+    </initialState>
+    <colors>
+        <color>#000000</color>
+        <color>#FFFFFF</color>
+    </colors>
+    <numColors>2</numColors>
+    <width>400</width>
+    <height>400</height>
+    <columns>30</columns>
+    <rows>30</rows>
+    <neighbors>neighbors8</neighbors>
+    <parameters>
+        <name>DEAD</name>
+        <name>ALIVE</name>
+    </parameters>
+</config>

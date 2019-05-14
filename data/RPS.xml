@@ -1,0 +1,37 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>RPS</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <states>
+        <option name = "EMPTY">0</option>
+        <option name = "RED">1</option>
+        <option name = "BLUE">2</option>
+        <option name = "GREEN">3</option>
+    </states>
+    <stateProb>
+        <prob>0.7</prob>
+        <prob>0.1</prob>
+        <prob>0.1</prob>
+        <prob>0.1</prob>
+    </stateProb>
+    <colors>
+        <color>#FFFFFF</color>
+        <color>#e80909</color>
+        <color>#0d2cba</color>
+        <color>#17d611</color>
+    </colors>
+    <numColors>4</numColors>
+    <width>400</width>
+    <height>400</height>
+    <rows>50</rows>
+    <columns>50</columns>
+    <neighbors>neighbors4</neighbors>
+    <parameters>
+        <name>EMPTY</name>
+        <name>RED</name>
+        <name>BLUE</name>
+        <name>GREEN</name>
+    </parameters>
+</config>

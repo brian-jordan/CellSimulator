@@ -1,0 +1,108 @@
+.chart {
+    -fx-background-color: #d7ebf9;
+}
+
+.chart-plot-background {
+    -fx-background-color: #7ebcea;
+}
+
+.pane {
+    -fx-background-color: #134e7b;
+    -fx-font-family: "Arial Black";
+}
+
+/*From: https://docs.oracle.com/javafx/2/get_started/css.htm*/
+.titleText {
+    -fx-font-size: 50px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #d7ebf9;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-alignment: center;
+}
+
+.infoText {
+    -fx-font-size: 20px;
+    -fx-fill: #262c89;
+    -fx-text-alignment: center;
+}
+
+.fileBarText {
+    -fx-font-size: 20px;
+    -fx-fill: #262c89;
+}
+
+.fileBar {
+    -fx-fill: #ddf4f9;
+    -fx-arc-height: 20;
+    -fx-arc-width: 20;
+
+}
+
+.fileBarStackPane {
+    -fx-alignment: bottom-center;
+    -fx-spacing: 10;
+}
+
+.simulationSpace {
+    -fx-fill: #ddf4f9;
+}
+
+.titleBox {
+    -fx-padding: 10;
+    -fx-spacing: 50;
+    -fx-min-width: 1000;
+    -fx-alignment: center-right;
+}
+.mainBoxes {
+    -fx-min-width: 500;
+}
+
+.centeredBox {
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-spacing: 15;
+}
+
+.axis {
+    -fx-tick-label-fill: #d7ebf9;
+}
+
+.leftAlignedBox {
+    -fx-alignment: center-left;
+    -fx-top-padding: 20 0 0 0;
+}
+.controlBox{
+    -fx-alignment: center;
+    -fx-padding: 5;
+    -fx-spacing: 20;
+}
+.simButtonBox {
+    -fx-min-width: 250;
+    -fx-alignment: bottom-center;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+}
+/*From http://fxexperience.com/2011/12/styling-fx-buttons-with-css/*/
+.simButton {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+    -fx-alignment: center-right;
+}
+.simButton:hover {
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(#20262b, #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}

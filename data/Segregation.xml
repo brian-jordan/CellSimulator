@@ -1,0 +1,35 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>Segregation</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <states>
+        <option name = "EMPTY">0</option>
+        <option name = "AGENT ONE">1</option>
+        <option name = "AGENT TWO">2</option>
+    </states>
+    <stateProb>
+        <prob>0.01</prob>
+        <prob>0.45</prob>
+        <prob>0.45</prob>
+    </stateProb>
+    <colors>
+        <color>#FFFFFF</color>
+        <color>#000000</color>
+        <color>#000FFF</color>
+    </colors>
+    <numColors>3</numColors>
+    <width>400</width>
+    <height>400</height>
+    <rows>30</rows>
+    <columns>30</columns>
+    <parameters>
+        <probSatisfied>0.5</probSatisfied>
+        <name>EMPTY</name>
+        <name>AGENT ONE</name>
+        <name>AGENT TWO</name>
+    </parameters>
+    <neighbors>neighbors8</neighbors>
+
+</config>

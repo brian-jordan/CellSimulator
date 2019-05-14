@@ -1,0 +1,36 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>ForagingAnt</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <states>
+        <option name = "EMPTY">0</option>
+        <option name = "FOOD">1</option>
+        <option name = "NEST">2</option>
+
+    </states>
+    <stateProb>
+        <prob>0.98</prob>
+        <prob>0.01</prob>
+        <prob>0.01</prob>
+    </stateProb>
+    <colors>
+        <color>#006600</color>
+        <color>#ffcc00</color>
+        <color>#0099ff</color>
+        <color>#ea2c07</color>
+    </colors>
+    <numColors>4</numColors>
+    <width>400</width>
+    <height>400</height>
+    <rows>20</rows>
+    <columns>20</columns>
+    <neighbors>neighbors8</neighbors>
+    <parameters>
+        <antCount>1000</antCount>
+        <name>EMPTY</name>
+        <name>FOOD</name>
+        <name>NEST</name>
+    </parameters>
+</config>

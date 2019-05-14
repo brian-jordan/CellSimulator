@@ -1,0 +1,33 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>Percolation</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <states>
+        <option name = "OPEN">0</option>
+        <option name = "PERCOLATED">1</option>
+        <option name = "BLOCKED">2</option>
+    </states>
+    <stateProb>
+        <prob>0.69</prob>
+        <prob>0.01</prob>
+        <prob>0.3</prob>
+    </stateProb>
+    <colors>
+        <color>#FFFFFF</color>
+        <color>#0099FF</color>
+        <color>#000000</color>
+    </colors>
+    <numColors>3</numColors>
+    <width>400</width>
+    <height>400</height>
+    <rows>30</rows>
+    <columns>30</columns>
+    <parameters>
+        <name>OPEN</name>
+        <name>PERCOLATED</name>
+        <name>BLOCKED</name>
+    </parameters>
+    <neighbors>neighbors4</neighbors>
+</config>

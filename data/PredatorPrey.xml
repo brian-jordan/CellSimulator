@@ -1,0 +1,34 @@
+<?xml version= "1.0" encoding = "UTF-8"?>
+<config>
+    <title>PredatorPrey</title>
+    <author>Bryant Huang</author>
+    <cellShape>square</cellShape>
+    <gridShape>squareGrid</gridShape>
+    <states>
+        <option name = "empty">0</option>
+        <option name = "predator">1</option>
+        <option name = "prey">2</option>
+    </states>
+    <stateProb>
+        <prob>0.05</prob>
+        <prob>0.6</prob>
+        <prob>0.35</prob>
+    </stateProb>
+    <colors>
+        <color>#006600</color>
+        <color>#ffcc00</color>
+        <color>#0099ff</color>
+    </colors>
+    <numColors>3</numColors>
+    <width>400</width>
+    <height>400</height>
+    <rows>20</rows>
+    <columns>20</columns>
+    <neighbors>neighbors4</neighbors>
+    <parameters>
+        <energy>2</energy>
+        <name>EMPTY</name>
+        <name>PREDATOR</name>
+        <name>PREY</name>
+    </parameters>
+</config>
